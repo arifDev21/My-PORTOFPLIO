@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 import { srConfig } from "../config";
-import project1 from "../assets/events.jpg";
+import project1 from "../assets/event.jpg";
 import project2 from "../assets/pizza.jpg";
+import project3 from "../assets/erajaya-maritim.jpeg";
+
 import LinkTag from "../components/LinkTag";
 import sr from "../utils/sr";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion";
@@ -58,10 +60,9 @@ export default function Built() {
               Events Managements
             </LinkTag>
             <p className={styles.builtItemText}>
-              Sebuah website manajemen acara terdepan, tempat Anda dapat merencanakan, mengatur, dan
-              mengelola acara-acara Anda dengan sempurna.Website ini dapat menjalankan acara, mulai
-              dari konferensi bisnis hingga pameran seni, pesta pernikahan hingga festival musik,
-              dan segala jenis kegiatan lainnya.
+              A leading event management website, where you can plan, organize and manage your
+              events perfectly.This website can run events, start from business conferences to art
+              exhibitions, wedding parties to music festivals, and all kinds of other activities.
             </p>
             <div className="flex flex-row space-x-6">
               <LinkTag
@@ -111,6 +112,46 @@ export default function Built() {
               alt="project1"
             />
           </figure>
+        </div>
+
+        <div className={styles.builtItemSecond}>
+          <figure>
+            <img
+              className={styles.builtItemCoverImg}
+              src={project3}
+              draggable="false"
+              loading="lazy"
+              alt="project1"
+            />
+          </figure>
+          <div className={styles.builtItemContent}>
+            <h1 className={styles.builtItemHeading}>Featured Project</h1>
+            <LinkTag
+              url="https://event-managements.vercel.app/home"
+              style={styles.builtItemSubheading}
+            >
+              Erajaya Maritim
+            </LinkTag>
+            <p className={styles.builtItemText}>
+              A leading event management website, where you can plan, organize and manage your
+              events perfectly.This website can run events, start from business conferences to art
+              exhibitions, wedding parties to music festivals, and all kinds of other activities.
+            </p>
+            <div className="flex flex-row space-x-6">
+              <LinkTag
+                className={styles.builtItemLink}
+                url="https://github.com/arif211204/event-managements"
+              >
+                <FaGithub className={styles.builtItemIcon} />
+              </LinkTag>
+              <LinkTag
+                className={styles.builtItemLink}
+                url="https://event-managements.vercel.app/home"
+              >
+                <FaExternalLinkSquareAlt className={styles.builtItemIcon} />
+              </LinkTag>
+            </div>
+          </div>
         </div>
       </section>
     </>
