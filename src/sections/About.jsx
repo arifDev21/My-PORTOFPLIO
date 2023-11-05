@@ -15,7 +15,14 @@ export default function About() {
     aboutImage: `object-contain w-7/12 md:w-8/12 lg:w-5/12 xl:w-full rounded-xl grayscale hover:grayscale-0`,
   };
 
-  const skills = ["JavaScript", "HTML", "React", "Node JS", "CSS"];
+  const skills = [
+    "JavaScript",
+    "HTML",
+    "React Js || Vite Js",
+    "Node JS [ Express , Prisma ]",
+    "Tailwind Css",
+    "MySQL",
+  ];
   const revealContainer = useRef(null);
   const prefersReducedMotion = usePrefersReducedMotion();
 

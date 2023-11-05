@@ -88,17 +88,25 @@ export default function Built() {
               Point Of Sales
             </LinkTag>
             <p className={styles.builtItemText}>
-              Memanfaatkan API dari Coinranking. Menampilkan sejumlah harga mata uang kripto seperti
-              Bitcoin, Ethereum, dan Binance secara real-time.
+              A Point of Sale (POS) website, designed to help your business manage sales
+              transactions easily and efficiently. POS is a modern solution allows you to accept
+              payments from customers, and manage data sales well.
             </p>
+            <br />
+            username : superAdmin
+            <br />
+            password : 87654321
             <div className="flex flex-row space-x-6">
               <LinkTag
                 className={styles.builtItemLink}
-                url="https://github.com/azharluthfi14/coinancy"
+                url="https://github.com/arif211204/POS-PIZZAZZZ"
               >
                 <FaGithub className={styles.builtItemIcon} />
               </LinkTag>
-              <LinkTag className={styles.builtItemLink} url="https://coinancy.netlify.app">
+              <LinkTag
+                className={styles.builtItemLink}
+                url="https://pos-pizzazzz.netlify.app/admin/login"
+              >
                 <FaExternalLinkSquareAlt className={styles.builtItemIcon} />
               </LinkTag>
             </div>
@@ -126,28 +134,16 @@ export default function Built() {
           </figure>
           <div className={styles.builtItemContent}>
             <h1 className={styles.builtItemHeading}>Featured Project</h1>
-            <LinkTag
-              url="https://event-managements.vercel.app/home"
-              style={styles.builtItemSubheading}
-            >
+            <LinkTag url="https://erajayamaritim.com/" style={styles.builtItemSubheading}>
               Erajaya Maritim
             </LinkTag>
             <p className={styles.builtItemText}>
-              A leading event management website, where you can plan, organize and manage your
-              events perfectly.This website can run events, start from business conferences to art
-              exhibitions, wedding parties to music festivals, and all kinds of other activities.
+              Erajaya Maritim website, an informative and interactive platform supported by
+              WordPress technology. This website is dedicated to providing information about Erajaya
+              Maritim, a company that focuses on the maritime industry and related services.
             </p>
             <div className="flex flex-row space-x-6">
-              <LinkTag
-                className={styles.builtItemLink}
-                url="https://github.com/arif211204/event-managements"
-              >
-                <FaGithub className={styles.builtItemIcon} />
-              </LinkTag>
-              <LinkTag
-                className={styles.builtItemLink}
-                url="https://event-managements.vercel.app/home"
-              >
+              <LinkTag className={styles.builtItemLink} url="https://erajayamaritim.com/">
                 <FaExternalLinkSquareAlt className={styles.builtItemIcon} />
               </LinkTag>
             </div>
