@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from "react";
-import avatar from "../assets/avatar2.jpg";
 import { srConfig } from "../config";
 import sr from "../utils/sr";
 import LinkTag from "../components/LinkTag";

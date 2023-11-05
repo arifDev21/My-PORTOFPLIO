@@ -1,8 +1,8 @@
 import React, { useEffect, useRef } from "react";
 import { FaGithub, FaExternalLinkSquareAlt } from "react-icons/fa";
 import { srConfig } from "../config";
-import project1 from "../assets/project-one.png";
-import project2 from "../assets/project-two.png";
+import project1 from "../assets/events.jpg";
+import project2 from "../assets/pizza.jpg";
 import LinkTag from "../components/LinkTag";
 import sr from "../utils/sr";
 import usePrefersReducedMotion from "../hooks/usePrefersReducedMotion";
@@ -51,21 +51,29 @@ export default function Built() {
           </figure>
           <div className={styles.builtItemContent}>
             <h1 className={styles.builtItemHeading}>Featured Project</h1>
-            <LinkTag url="https://filmstar.netlify.app" style={styles.builtItemSubheading}>
+            <LinkTag
+              url="https://event-managements.vercel.app/home"
+              style={styles.builtItemSubheading}
+            >
               Events Managements
             </LinkTag>
             <p className={styles.builtItemText}>
-              Sebuah aplikasi web yang menampilkan film dan series populer dari berbagai macam
-              belahan dunia. Memiliki banyak kategori genre film dan series.
+              Sebuah website manajemen acara terdepan, tempat Anda dapat merencanakan, mengatur, dan
+              mengelola acara-acara Anda dengan sempurna.Website ini dapat menjalankan acara, mulai
+              dari konferensi bisnis hingga pameran seni, pesta pernikahan hingga festival musik,
+              dan segala jenis kegiatan lainnya.
             </p>
             <div className="flex flex-row space-x-6">
               <LinkTag
                 className={styles.builtItemLink}
-                url="https://github.com/azharluthfi14/ifilm"
+                url="https://github.com/arif211204/event-managements"
               >
                 <FaGithub className={styles.builtItemIcon} />
               </LinkTag>
-              <LinkTag className={styles.builtItemLink} url="https://filmstar.netlify.app">
+              <LinkTag
+                className={styles.builtItemLink}
+                url="https://event-managements.vercel.app/home"
+              >
                 <FaExternalLinkSquareAlt className={styles.builtItemIcon} />
               </LinkTag>
             </div>
