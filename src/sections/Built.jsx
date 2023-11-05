@@ -4,6 +4,7 @@ import { srConfig } from "../config";
 import project1 from "../assets/event.jpg";
 import project2 from "../assets/pizza.jpg";
 import project3 from "../assets/erajaya-maritim.jpeg";
+import project4 from "../assets/instagram.png";
 
 import LinkTag from "../components/LinkTag";
 import sr from "../utils/sr";
@@ -16,6 +17,7 @@ export default function Built() {
     builtItem: `grid grid-flow-row md:grid-cols-2 md:space-x-10 mb-10`,
     builtItemSecond: `grid grid-flow-row md:grid-cols-2 md:space-x-10 mt-10`,
     builtItemCoverImg: `object-cover w-full hover:scale-110	ease-in-out duration-500`,
+    builtItemCoverImg1: "object-cover w-300 h-100 hover:scale-110 ease-in-out duration-500",
     builtItemContent: `space-y-5 flex flex-col relative justify-center`,
     builtItemHeading: `text-xl text-violet-700`,
     builtItemSubheading: `text-3xl w-max bg-clip-text font-bold`,
@@ -84,7 +86,10 @@ export default function Built() {
         <div className={styles.builtItemSecond}>
           <div className={styles.builtItemContent}>
             <h1 className={styles.builtItemHeading}>Featured Project</h1>
-            <LinkTag url="https://coinancy.netlify.app" style={styles.builtItemSubheading}>
+            <LinkTag
+              url="https://pos-pizzazzz.netlify.app/admin/login"
+              style={styles.builtItemSubheading}
+            >
               Point Of Sales
             </LinkTag>
             <p className={styles.builtItemText}>
@@ -148,6 +153,48 @@ export default function Built() {
               </LinkTag>
             </div>
           </div>
+        </div>
+
+        <div className={styles.builtItemSecond}>
+          <div className={styles.builtItemContent}>
+            <h1 className={styles.builtItemHeading}>Featured Project</h1>
+            <LinkTag url="https://coinancy.netlify.app" style={styles.builtItemSubheading}>
+              Instagram (Mobile Version)
+            </LinkTag>
+            <p className={styles.builtItemText}>
+              Instagram mobile version clone website! A close replica of the appearance and
+              functionality of the most popular social media platform in the world, namely
+              Instagram. With this clone website, you can experience a similar experience to
+              Instagram from your computer or mobile device. This website allows you to view, upload
+              and share photos just like you do on Instagram official. You can explore the homepage,
+              discover various interesting content, as well interact with other users' posts by
+              giving "Likes," comments and Follow
+            </p>
+
+            <div className="flex flex-row space-x-6">
+              <LinkTag
+                className={styles.builtItemLink}
+                url="https://github.com/arif211204/Intagram-FE"
+              >
+                <FaGithub className={styles.builtItemIcon} />
+              </LinkTag>
+              {/* <LinkTag
+                className={styles.builtItemLink}
+                url="https://pos-pizzazzz.netlify.app/admin/login"
+              >
+                <FaExternalLinkSquareAlt className={styles.builtItemIcon} />
+              </LinkTag> */}
+            </div>
+          </div>
+          <figure>
+            <img
+              className={styles.builtItemCoverImg1}
+              src={project4}
+              draggable="false"
+              loading="lazy"
+              alt="project1"
+            />
+          </figure>
         </div>
       </section>
     </>

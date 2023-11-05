@@ -19,7 +19,7 @@ export default function About() {
     "JavaScript",
     "HTML",
     "React Js || Vite Js",
-    "Node JS [ Express , Prisma ]",
+    "Node JS  [ Express , Prisma ]",
     "Tailwind Css",
     "MySQL",
   ];
@@ -44,7 +44,7 @@ export default function About() {
             Hi, my name is Muhammad M Nasrullah Arif, you can be called Arif and I attended a
             bootcamp at{" "}
             <LinkTag style="text-violet-500 link" url="https://purwadhika.com/">
-              Purwadhika Digital School Fullstack Web Developer
+              <br /> Purwadhika Digital School Fullstack Web Developer
             </LinkTag>
           </p>
           <p>
