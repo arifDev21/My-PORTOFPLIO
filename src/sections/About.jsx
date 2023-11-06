@@ -41,8 +41,8 @@ export default function About() {
       <div className={styles.aboutContent}>
         <div className={styles.aboutText}>
           <p>
-            Hi, my name is Muhammad M Nasrullah Arif, you can be called Arif and I attended a
-            bootcamp at{" "}
+            Hi, my name is Muhammad Nasrullah Arif, you can be called Arif and I attended a bootcamp
+            at{" "}
             <LinkTag style="text-violet-500 link" url="https://purwadhika.com/">
               <br /> Purwadhika Digital School Fullstack Web Developer
             </LinkTag>

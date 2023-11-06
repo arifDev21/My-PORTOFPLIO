@@ -189,6 +189,8 @@ export default function Built() {
           <figure>
             <img
               className={styles.builtItemCoverImg1}
+              width={200}
+              height={100}
               src={project4}
               draggable="false"
               loading="lazy"
