@@ -19,7 +19,7 @@ export default function About() {
     "JavaScript",
     "HTML",
     "React Js || Vite Js",
-    "Node JS  [ Express , Prisma ]",
+    "Node JS  [ Express ]",
     "Tailwind Css",
     "MySQL",
   ];

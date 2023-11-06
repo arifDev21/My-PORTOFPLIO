@@ -16,7 +16,7 @@ export default function Built() {
     // builtContent: `text-slate-800 dark:text-slate-200`,
     builtItem: `grid grid-flow-row md:grid-cols-2 md:space-x-10 mb-10`,
     builtItemSecond: `grid grid-flow-row md:grid-cols-2 md:space-x-10 mt-10`,
-    builtItemCoverImg: `object-cover w-full hover:scale-110	ease-in-out duration-500`,
+    builtItemCoverImg: `object-cover w-full hover:scale-110	ease-in-out duration-500  `,
     builtItemCoverImg1: "object-cover w-300 h-100 hover:scale-110 ease-in-out duration-500",
     builtItemContent: `space-y-5 flex flex-col relative justify-center`,
     builtItemHeading: `text-xl text-violet-700`,
