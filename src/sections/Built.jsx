@@ -97,10 +97,22 @@ export default function Built() {
               transactions easily and efficiently. POS is a modern solution allows you to accept
               payments from customers, and manage data sales well.
             </p>
-            <br />
-            username : superAdmin
-            <br />
-            password : 87654321
+            <p>
+              username : admin1
+              <br />
+              <span> password : 12345678</span>
+            </p>
+            <p>
+              username : cashier1
+              <br />
+              <span> password : 12345678</span>
+            </p>
+            <p>
+              If you want to go to the cashier login page, you have to change the route to something
+              like this:
+              <br />
+              https://pos-pizzazzz.netlify.app/cashier/login
+            </p>
             <div className="flex flex-row space-x-6">
               <LinkTag
                 className={styles.builtItemLink}
