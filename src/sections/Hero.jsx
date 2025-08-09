@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { MdCloudDownload } from "react-icons/md";
-import resume from "../documents/M_Nashrullah_Arif.pdf";
+import resume from "../documents/CV M NASHRULLAH ARIF.pdf";
 
 export default function Hero() {
   const styles = {
