@@ -37,21 +37,7 @@ export default function Experience() {
       ],
       skills: ["Full-stack Development", "Mobile Development", "React Native", "React.js", "Node.js", "Mining Software", "Real-time Data", "Field Applications", "Equipment Management", "Operational Systems"]
     },
-    {
-      title: "Frontend Developer",
-      company: "BUMN Kereta Cepat Indonesia China",
-      date: "Jan 2025 - Present",
-      location: "Indonesia · On-site",
-      description: "Worked as a Frontend Developer for the high-speed rail project between Indonesia and China, developing user interfaces and web applications for the transportation system.",
-      highlights: [
-        "Developed frontend applications for high-speed rail operations",
-        "Created user interfaces for passenger management systems",
-        "Built responsive web applications for operational staff",
-        "Collaborated with international teams (Indonesia-China)",
-        "Implemented modern UI/UX designs for transportation systems"
-      ],
-      skills: ["Frontend Development", "React.js", "JavaScript", "CSS", "HTML", "Transportation Systems", "International Collaboration", "UI/UX Design", "Responsive Design", "Passenger Management"]
-    },
+  
     {
       title: "Co-Founder & Development Team Lead",
       company: "PT SKY MULTI CREATIVE",
