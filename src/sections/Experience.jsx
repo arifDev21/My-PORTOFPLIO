@@ -25,7 +25,7 @@ export default function Experience() {
     {
       title: "Fullstack & Mobile Developer",
       company: "Australian Mining Company",
-      date: "Dec 2024 - Present",
+      date: "Dec 2024 - June 2025",
       location: "Australia · Remote",
       description: "Developed comprehensive applications for mining operations, including both web and mobile solutions to support various mining activities and operational requirements.",
       highlights: [
@@ -52,21 +52,21 @@ export default function Experience() {
       ],
       skills: ["TypeScript", "MySQL", "React.js", "Node.js", "API Development", "Database Design", "System Architecture", "Team Leadership", "Project Management", "Performance Optimization"]
     },
-    {
-      title: "IT Developer",
-      company: "TrustMetric",
-      date: "Sep 2024 - Present",
-      location: "Jakarta Pusat, Jakarta Raya, Indonesia · Contract",
-      description: "As an IT Developer, I build secure API endpoints, backoffice systems, and customer portals using RSA encryption and digital signatures. I ensure performance, scalability, and data integrity while collaborating with cross-functional teams to deliver responsive and secure web applications that follow industry best practices for usability, security, and maintainability.",
-      highlights: [
-        "Built secure API endpoints with RSA encryption and digital signatures",
-        "Developed backoffice systems and customer portals",
-        "Ensured performance, scalability, and data integrity",
-        "Collaborated with cross-functional teams",
-        "Implemented industry best practices for security and maintainability"
-      ],
-      skills: ["API Development", "RSA Encryption", "Digital Signatures", "Backoffice Systems", "Customer Portals", "Security", "Performance Optimization", "Scalability", "Data Integrity", "Cross-functional Collaboration", "Industry Best Practices"]
-    },
+    // {
+    //   title: "IT Developer",
+    //   company: "TrustMetric",
+    //   date: "Sep 2024 - Present",
+    //   location: "Jakarta Pusat, Jakarta Raya, Indonesia · Contract",
+    //   description: "As an IT Developer, I build secure API endpoints, backoffice systems, and customer portals using RSA encryption and digital signatures. I ensure performance, scalability, and data integrity while collaborating with cross-functional teams to deliver responsive and secure web applications that follow industry best practices for usability, security, and maintainability.",
+    //   highlights: [
+    //     "Built secure API endpoints with RSA encryption and digital signatures",
+    //     "Developed backoffice systems and customer portals",
+    //     "Ensured performance, scalability, and data integrity",
+    //     "Collaborated with cross-functional teams",
+    //     "Implemented industry best practices for security and maintainability"
+    //   ],
+    //   skills: ["API Development", "RSA Encryption", "Digital Signatures", "Backoffice Systems", "Customer Portals", "Security", "Performance Optimization", "Scalability", "Data Integrity", "Cross-functional Collaboration", "Industry Best Practices"]
+    // },
     {
       title: "Web Developer",
       company: "PT Sempoa Prima Teknologi",
@@ -83,7 +83,7 @@ export default function Experience() {
     {
       title: "Lead Frontend",
       company: "Freelance",
-      date: "Jun 2025 - Present",
+      date: "Apr 2025 - Aug 2025",
       location: "Jakarta Raya, Indonesia · Remote",
       description: "Served as Lead Frontend Developer for a government project at the Attorney General's Office of the Republic of Indonesia. Led frontend development team and implemented modern, responsive, and secure web interfaces.",
       highlights: [
