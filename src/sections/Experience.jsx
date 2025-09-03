@@ -22,21 +22,21 @@ export default function Experience() {
   };
 
   const experiences = [
-    {
-      title: "Fullstack & Mobile Developer",
-      company: "Australian Mining Company",
-      date: "Dec 2024 - June 2025",
-      location: "Australia · Remote",
-      description: "Developed comprehensive applications for mining operations, including both web and mobile solutions to support various mining activities and operational requirements.",
-      highlights: [
-        "Built full-stack applications for mining operations management",
-        "Developed mobile applications for field workers and operational staff",
-        "Created solutions for real-time data monitoring and reporting",
-        "Implemented systems for equipment tracking and maintenance scheduling",
-        "Designed user interfaces optimized for challenging field conditions"
-      ],
-      skills: ["Full-stack Development", "Mobile Development", "React Native", "React.js", "Node.js", "Mining Software", "Real-time Data", "Field Applications", "Equipment Management", "Operational Systems"]
-    },
+    // {
+    //   title: "Fullstack & Mobile Developer",
+    //   company: "Australian Mining Company",
+    //   date: "Dec 2024 - June 2025",
+    //   location: "Australia · Remote",
+    //   description: "Developed comprehensive applications for mining operations, including both web and mobile solutions to support various mining activities and operational requirements.",
+    //   highlights: [
+    //     "Built full-stack applications for mining operations management",
+    //     "Developed mobile applications for field workers and operational staff",
+    //     "Created solutions for real-time data monitoring and reporting",
+    //     "Implemented systems for equipment tracking and maintenance scheduling",
+    //     "Designed user interfaces optimized for challenging field conditions"
+    //   ],
+    //   skills: ["Full-stack Development", "Mobile Development", "React Native", "React.js", "Node.js", "Mining Software", "Real-time Data", "Field Applications", "Equipment Management", "Operational Systems"]
+    // },
   
     {
       title: "Co-Founder & Development Team Lead",
