@@ -2,6 +2,9 @@
   "name": "porto-web-v2",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
