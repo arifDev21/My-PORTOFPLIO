@@ -68,7 +68,7 @@ export default function Experience() {
     //   skills: ["API Development", "RSA Encryption", "Digital Signatures", "Backoffice Systems", "Customer Portals", "Security", "Performance Optimization", "Scalability", "Data Integrity", "Cross-functional Collaboration", "Industry Best Practices"]
     // },
     {
-      title: "Web Developer",
+      title: "Web Developer & Mobile Developer",
       company: "PT Sempoa Prima Teknologi",
       date: "Mar 2024 - Present",
       location: "Jakarta Barat, Jakarta Raya, Indonesia · On-site",
